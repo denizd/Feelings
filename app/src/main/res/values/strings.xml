@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Feelings</string>
+
+<!--    FeelingsFragment.kt-->
+    <string name="feelings_header_question">How are you feeling today?</string>
+    <string name="feelings_subheader_placeholder_positive">Oh, that\'s %s to hear! Care to share why?</string>
+    <string name="feelings_subheader_neutral">Care to share why?</string>
+    <string name="feelings_subheader_bad">Oh, that\'s not good! Care to share why?</string>
+    <string name="feelings_subheader_awful">Oh, I\'m so sorry. Would you like to share why?</string>
+    <string-array name="feelings_placefiller_fantastic">
+        <item>fantastic</item>
+        <item>amazing</item>
+        <item>awesome</item>
+    </string-array>
+    <string-array name="feelings_placefiller_good">
+        <item>good</item>
+        <item>great</item>
+        <item>nice</item>
+        <item>pleasant</item>
+    </string-array>
+</resources>
