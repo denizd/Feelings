@@ -18,4 +18,9 @@
         <item>nice</item>
         <item>pleasant</item>
     </string-array>
+    <string name="feelings_awful">😔</string>
+    <string name="feelings_bad">🙁</string>
+    <string name="feelings_neutral">😐</string>
+    <string name="feelings_good">🙂</string>
+    <string name="feelings_fantastic">😄</string>
 </resources>
