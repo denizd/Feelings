@@ -53,13 +53,13 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-common-java8:2.2.0")
     implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0")
-    implementation("androidx.media:media:1.1.0")
+//    implementation("androidx.media:media:1.1.0")
     implementation("androidx.preference:preference-ktx:1.1.1")
     implementation("androidx.recyclerview:recyclerview:1.1.0")
 
     implementation("com.google.android.material:material:1.3.0-alpha01")
 
-    implementation("androidx.work:work-runtime-ktx:2.3.4")
+//    implementation("androidx.work:work-runtime-ktx:2.3.4")
 
     implementation("androidx.room:room-runtime:2.2.5")
     kapt("androidx.room:room-compiler:2.2.5")
@@ -67,5 +67,4 @@ dependencies {
     testImplementation("junit:junit:4.12")
     androidTestImplementation("androidx.test.ext:junit:1.1.1")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.2.0")
-
 }

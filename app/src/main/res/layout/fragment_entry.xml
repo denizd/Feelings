@@ -5,7 +5,8 @@
     android:id="@+id/root_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp">
 
     <TextView
         android:id="@+id/header"
@@ -14,8 +15,7 @@
         android:text="@string/feelings_header_question"
         android:textSize="32sp"
         android:fontFamily="@font/manrope_bold"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="64dp"/>
+        android:layout_marginTop="128dp"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/feelings_container"
@@ -109,7 +109,45 @@
         android:id="@+id/share_subheader"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
+        android:visibility="gone"
+        android:textSize="18sp"
+        android:fontFamily="@font/manrope_medium"
         android:layout_marginTop="32dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/share_field_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/share_field_hint"
+        android:visibility="gone"
+        android:layout_marginTop="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/share_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:inputType="text"
+            android:maxLength="64"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/text_limit_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="@string/reason_length"
+        android:textAlignment="viewEnd"/>
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="@string/save"
+        android:paddingVertical="8dp"/>
 
 </LinearLayout>

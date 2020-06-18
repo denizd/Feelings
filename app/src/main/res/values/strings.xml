@@ -23,4 +23,7 @@
     <string name="feelings_neutral">😐</string>
     <string name="feelings_good">🙂</string>
     <string name="feelings_fantastic">😄</string>
+    <string name="share_field_hint">Only if you like</string>
+    <string name="reason_length">64</string>
+    <string name="save">Save</string>
 </resources>
